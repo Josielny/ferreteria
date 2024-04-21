@@ -1,0 +1,58 @@
+*{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+}
+
+.container-fluid{
+    background: linear-gradient(to bottom right, green, yellow  );
+    border-radius: 1rem;
+}
+
+.row a{
+    color: aliceblue;
+}
+
+.card{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 10rem 7rem 1rem;
+    color: var(white-color);
+    overflow-y: hidden;
+}
+
+.card-login{
+    background: linear-gradient(to bottom right, black, red  );
+    border-radius: 1rem;
+    color: white;
+}
+
+
+.button {
+    background-color: green;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(34, 101, 34);
+    color: #ffffff;
+}
+
+.card-img-top{
+    filter: drop-shadow(-2px 2px 6px rgba(0, 0, 0, 0.7));
+}
+
+.navbar-brand{
+    filter: drop-shadow(-2px 2px 6px rgba(0, 0, 0, 0.7));
+}
+
+
