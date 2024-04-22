@@ -10,7 +10,6 @@
 
 .container-fluid{
     background: linear-gradient(to bottom right, green, yellow  );
-    border-radius: 1rem;
 }
 
 .row a{
